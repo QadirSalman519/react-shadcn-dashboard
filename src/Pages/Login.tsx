@@ -19,7 +19,6 @@ function Login() {
             <div className="mb-6 text-center">
               <img src="" alt="Logo" className="h-12 w-auto" />
             </div>
-
             <CardTitle>Login to your account</CardTitle>
             <CardDescription>
               Enter your email below to login to your account
@@ -41,7 +40,7 @@ function Login() {
                   <div className="flex items-center">
                     <Label htmlFor="password">Password</Label>
                     <a
-                      href="#"
+                      href="/forgot-password"
                       className="ml-auto inline-block text-sm underline-offset-4 hover:underline"
                     >
                       Forgot your password?
