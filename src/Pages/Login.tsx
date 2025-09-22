@@ -10,6 +10,7 @@ import {
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import Logo from "@/assets/images/logo.png";
+import { Link } from "react-router-dom";
 
 function Login() {
   return (
@@ -54,7 +55,7 @@ function Login() {
           </CardContent>
           <CardFooter className="flex-col gap-2">
             <Button type="submit" className="w-full">
-              Login
+              <Link to="/dashboard">Login</Link>
             </Button>
           </CardFooter>
         </Card>
