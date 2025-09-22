@@ -9,6 +9,7 @@ import {
 } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
+import Logo from "@/assets/images/logo.png";
 
 function ForgotPassword() {
   return (
@@ -16,7 +17,7 @@ function ForgotPassword() {
       <Card className="w-full max-w-md text-center shadow-lg">
         <CardHeader>
           <div className="mb-6 text-center">
-            <img src="" alt="Logo" className="h-12 w-auto" />
+            <img src={Logo} alt="Logo" className="h-15 w-auto mx-auto" />
           </div>
           <CardTitle>Forgot Password</CardTitle>
           <CardDescription>

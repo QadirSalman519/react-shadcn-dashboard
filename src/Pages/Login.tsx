@@ -9,6 +9,7 @@ import {
 } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
+import Logo from "@/assets/images/logo.png";
 
 function Login() {
   return (
@@ -17,7 +18,7 @@ function Login() {
         <Card className="w-full max-w-md text-center">
           <CardHeader>
             <div className="mb-6 text-center">
-              <img src="" alt="Logo" className="h-12 w-auto" />
+              <img src={Logo} alt="Logo" className="h-15 w-auto mx-auto" />
             </div>
             <CardTitle>Login to your account</CardTitle>
             <CardDescription>
