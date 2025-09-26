@@ -8,7 +8,7 @@ import Layout from "@/components/layout/Layout";
 import Login from "@/Pages/Login";
 import ForgotPassword from "@/Pages/ForgotPassword";
 import Dashboard from "@/Pages/Dashboard";
-import { ThemeProvider } from "@/components/theme-provider";
+import { ThemeProvider } from "@/components/sidebar/theme-provider";
 
 function App() {
   return (
